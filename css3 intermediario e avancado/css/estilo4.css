@@ -1,0 +1,113 @@
+/* Layouts */
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	width: 85%;/*720px*/
+	margin: 0 auto;
+	background: #fff ;/*url(../imagens/coluna.png) repeat-y left top; coluna falsa, apenas usada em layout fixo */
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#marca {
+	width: 100%;
+	height: 300px;
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 300px;
+}
+
+#conteudo {
+	width: 75%;/*520px -> 75*/
+	float: right;
+}
+
+img.img-noticia {
+	width: 96%;
+	/*overflow: hidden;  Enquadra a imagem dentro da div */
+	padding: 2%;
+	max-width: 600px;
+}
+
+#navegacao {
+	width: 23%;/*180px -> 25*/
+	float: left;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#conteudo-principal {
+	width: 63%;/*320px -> 64*/
+	float: left;
+}
+
+#conteudo-secundario {
+	width: 34%;/*180px -> 36*/
+	float: left;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h1, 
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao ul {
+	list-style: none;
+}
+
+#navegacao li a {
+	text-decoration: none;
+}
+
+#rodape {
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+
+
+
+/* Barra de navegação */
+
+ul {/* Se tiver mais de 1 ul colocar id para deixa especifico */
+	list-style-type: none;/*remove a conotação lista de html*/
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 5px;
+	background: url(../imagens/set.png) no-repeat left center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 150px;
+	height: 20px;
+	display: block; /* Links não são elementos tipo block por isso a nescessidade dessa anotação */
+	color: #000;
+	text-indent: 20px;/*identação*/
+	line-height: 20px;
+	text-decoration: none;/*retira o underline do link*/
+	background: #c4c4c4 url(../imagens/men.png) no-repeat left bottom;
+}
+
+a:hover, .selecionado a { /* Movimentação da imagem */
+	background-position: right bottom;
+	background-color: #9E9E9E;
+	color: #fff;
+}
+

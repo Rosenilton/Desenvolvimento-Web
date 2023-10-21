@@ -1,0 +1,38 @@
+/* Hertança e especificidade */
+
+/* * {
+	border: 1px solid blue;
+}*/
+
+/*body {
+	color: red;
+	border: 1px solid blue;
+}*/
+
+/*p {
+	color: blue !important; utilizar com cuidado
+}*/
+
+
+
+/*Se um seletor for mais especifico que outro
+a regra mais específica será aplicada
+(terá precedência sobre regras mais gerais*/
+
+/*
+* {/* 1º Seletor geral */
+/*	color: red;
+}
+/*
+h2#amarelo { /*2º id é mais especifico que a class */
+/*	color: yellow;
+}
+/*
+h2.verde {/*3º Seletor ainda mais especifico ( classe sempre colocado ao elemento
+caso contrario trataria como herança)*/
+/*	color: green;
+}
+
+h2 {/*4º Seletor especifico */
+/*	color: blue;
+}*/

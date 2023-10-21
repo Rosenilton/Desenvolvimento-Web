@@ -1,0 +1,89 @@
+/* Barra de navegação vertical */
+
+/*ul {/* Se tiver mais de 1 ul colocar id para deixa especifico */
+	/*list-style-type: none;/*remove a conotação lista de html*/
+	/*margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 10px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+}*/
+/*
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block; /* Links não são elementos tipo block por isso a nescessidade dessa anotação */
+	/*color: #000;
+	text-indent: 40px;/*identação*/
+	/*line-height: 40px;
+	text-decoration: none;/*retira o underline do link*/
+	/*background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover { /* Movimentação da imagem */
+	/*background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servico #navegacao .servico a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}*/
+
+
+/* Barra de navegação horizontal */
+
+/*
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li{ /* Fluituação horizontal */
+/*	float: left;
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: white;
+	background: url(../imagens/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+ul a:hover { /* Substitui a barra de vagação quando selecionada */
+/*	color: #085662;
+	background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servico #navegacao .servico a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color: #085662;
+	background: #44cade;
+}*/
